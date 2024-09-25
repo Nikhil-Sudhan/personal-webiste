@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class bottom extends StatefulWidget {
-  const bottom({super.key});
+class Bottom extends StatefulWidget {
+  const Bottom({super.key});
 
   @override
-  State<bottom> createState() => _bottomState();
+  State<Bottom> createState() => _BottomState();
 }
 
-class _bottomState extends State<bottom> {
+class _BottomState extends State<Bottom> {
   @override
   Widget build(BuildContext context) {
     return Positioned(

@@ -59,12 +59,12 @@ class _LockState extends State<Lock> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: PreferredSize(
-          preferredSize: const Size(double.infinity, 42), // Set height only
+        appBar: const PreferredSize(
+          preferredSize: Size(double.infinity, 42), // Set height only
           child: Center(
             child: SizedBox(
               width: 425,
-              child: const Topbutton(),
+              child: Topbutton(),
             ),
           ),
         ),
@@ -97,17 +97,15 @@ class _LockState extends State<Lock> {
                 ),
               ),
             ),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: Container(
+             Container(
                 width: 425,
                 height: 60, // Set desired height for the container
                 color: const Color.fromARGB(255, 255, 255, 255), // Set background color for the container
                 child: const Center(
-                  child: bottom()
+                  child: Bottom()
                   ),
                 ),
-              ),
+              
             
           ],
         ),

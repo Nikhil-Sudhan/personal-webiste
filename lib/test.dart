@@ -135,7 +135,7 @@ class _LockState extends State<Lock> {
                     height: 60, // Set desired height for the container
                     color: const Color.fromARGB(255, 255, 255,
                         255), // Set background color for the container
-                    child: const Center(child: bottom()),
+                    child: const Center(child: Bottom()),
                   ),
                 ),
               ],
