@@ -16,30 +16,11 @@ class _BottomState extends State<Bottom> {
       right: 0,
       child: Container(
         height: 72,
-        width: 425,
         decoration: const BoxDecoration(
-          color: Color(0xFF000000),
+          color: Colors.black,
           borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(20),
             bottomRight: Radius.circular(20),
-          ),
-          border: Border(
-            left: BorderSide(
-              color: Color(0xFF000000),
-              width: 55,
-            ),
-            top: BorderSide(
-              color: Color(0xFF000000),
-              width: 18,
-            ),
-            right: BorderSide(
-              color: Color(0xFF000000),
-              width: 55,
-            ),
-            bottom: BorderSide(
-              color: Color(0xFF000000),
-              width: 18,
-            ),
           ),
         ),
         child: Row(

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+
 class Topbutton extends StatefulWidget {
   const Topbutton({super.key});
 
@@ -71,7 +72,7 @@ class _TopbuttonState extends State<Topbutton> {
                     fontFamily: 'Segoe',
                     fontWeight: FontWeight.w400,
                     color: Colors.white,
-                    fontSize: 13, // Set custom font size
+                    fontSize: 12, // Set custom font size
                   ),
                 ),
               ),
